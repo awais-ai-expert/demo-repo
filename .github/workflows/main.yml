@@ -2,7 +2,7 @@ name: Check Google Sheet for changes
 
 on:
   schedule:
-    - cron: "7,22,42,52 * * * *"
+    - cron: "7,15,32,52 * * * *"
   workflow_dispatch:
 
 permissions:
